@@ -31,7 +31,7 @@ def move_file():
 		print "Could not find 'LogsavePlugin.py' file. Aborting."
 		sys.exit()
 
-	os.rename("./LogsavePlugin.py", "%s/Library/Application Support/Sublime Text 2/Packages/LogsavePlugin%s" % (home, "Logsave1Plugin.py"))
+	os.rename("./LogsavePlugin.py", "%s/Library/Application Support/Sublime Text 2/Packages/LogsavePlugin%s" % (home, "LogsavePlugin.py"))
 
 
 def update_keybindings():
